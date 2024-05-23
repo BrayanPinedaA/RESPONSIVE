@@ -42,24 +42,28 @@ background-size: 100%, 100%;*/
 #nombre{
     display: flex;
     position: absolute;
-    top: 60px;
-    left:140px;
+    top: 50px;
+    left:170px;
     font-size: 30px;
     color:  #ffffff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .f{
     font-size: 40px;
     color: rgb(0, 0, 0);
+    width: 70%;
+    height: 20%;
 }
 #oli{
-    width: 600px;
-    font-size: 17px;
+    width: 35%;
+    height: 65%;
+    font-size: 20px;
     text-align: justify;
     }
 #m{
-    width: 300px;
-    height: 300px;
+    width: 25%;
+    height: 75%;
     margin: 15px;
     border-radius: 50%;
     box-shadow: 5px 9px 6px #5f0471;
@@ -73,8 +77,15 @@ body{
 #xyz{
     width: 50%;
     height: 40%;
-    font-size: 17px;
+    font-size: 20px;
     text-align:left;
+    
+}
+.p1{
+    font-size: 20px;
+    text-align:left;
+    width: 80%;
+    height: 10%;
     
 }
 #yeye{
@@ -189,12 +200,13 @@ transform: perspective(600px) rotateY(180deg);
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    position: absolute;
   }
   i{
     font-size: 20px;
   }
   .whatsapp-button i {
-    margin-right: 2px; /* Espacio entre el ícono y el texto */
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
   }
 
   .whatsapp-button:hover {
