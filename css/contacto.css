@@ -1,0 +1,42 @@
+.xd {
+    list-style: none;
+    display: flex;
+}
+.nose a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+}
+main {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+/*el problema 'busqueda'*/
+.haber
+    input[type="text"],
+    input[type="email"],
+    select,
+    input[type="checkbox"] {
+        margin: 10px 0;
+        padding: 10px;
+        width: 200px;
+        border-radius: 15px;
+        border: 3px solid #ddd;  
+}
+
+input[type="submit"] {
+    background-color: #128c7e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
