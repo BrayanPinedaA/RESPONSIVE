@@ -14,6 +14,11 @@ header{
         background-size: 100%, 100%;*/
         
 }
+body{
+    width: 100%;
+    height: 180px;
+    background-image: url("../IMG/fondo.jpg");
+}
 /* Aplicar estilos específicos para pantallas más pequeñas */
 @media screen and (max-width: 1000px) {
     .xd {
@@ -110,8 +115,11 @@ header{
 #nombre{
     display: flex;
     position: absolute;
-    top: 50px;
-    left:170px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 20px;
+    left:150px;
     font-size: 30px;
     color:  #ffffff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -394,6 +402,83 @@ input[type="submit"] {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/*barra'*/
+.barra{
+    position: absolute;
+    top: 10px;
+    text-align: right;
+    margin-left: 67%;
+    font-size: 15px;
+    font-family: Comic;
+    color: rgb(225, 236, 252);
+}
+.br{
+width: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.mhori{
+top: 35px;
+width: auto;
+list-style: none;
+display: flex ;
+justify-content: space-between;
+font-size: larger;
+}
+.mhori li a{
+text-decoration: none;
+color: aliceblue;
+
+}
+.etiquetas > li > a{
+    display: block;
+  padding: 15px;
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+
+}
+.etiquetas{
+font-family: Comic;
+display: none;
+list-style: none;
+width: 100px;
+background-color: rgb(170, 169, 169);
+text-align: center;
+color: rgb(94, 231, 218);
+}
+.mhori li:hover .etiquetas{
+display: block;
+}
+.etiquetas li:hover{
+background-color: rgb(95, 26, 128);
+}
+.etiquetas li a {
+display: block;
+color: rgb(0, 0, 0);
+text-decoration: none;
+
+}
+.etiquetas li a:hover{
+display: block;
+color: rgb(250, 247, 247);
+text-decoration: none;
+
+}
+.bnavegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    }
+.bnavegacion2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-start;
+    align-items: flex-start;
 }
 
 
